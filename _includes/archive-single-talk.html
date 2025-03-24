@@ -30,9 +30,6 @@
         <a href="{{ post.paperurl }}">{{ title }}, ({{post.pub}})</a>
       {% endif %}
     </h2>
-    {% if post.authors}
-    <p class="page__meta"> by {{post.authors}} </p> 
-    {% endif %}
     {% if post.date %}
     <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}, {{post.time}}</p>
     {% endif %}
