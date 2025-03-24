@@ -28,15 +28,10 @@
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}">{{ title }}, ({{post.pub}})</a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
     {% if post.authors}
-    <p> by {{post.authors}} </p> 
+    <p class="page__meta"> by {{post.authors}} </p> 
     {% endif %}
     {% if post.date %}
     <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}, {{post.time}}</p>
@@ -45,10 +40,10 @@
     <p class="archive__item-excerpt" itemprop="description">{{post.type}} {{post.venue}} </p>
       {% endif %}
     {& if post.presenter %} 
-    <p> Presenter: {{post.presenter}}</p> 
+    <p class="archive__item-excerpt" itemprop="description"> Presenter: {{post.presenter}}</p> 
     {% endif %}
     {% if post.extract %}
-    <details> <summary>Abstract</summary>{{post.extract}}</details></p>
+    <details> <summary>Abstract</summary>{{post.extract}}</details>
     {% endif %}
     {% if post.slidesurl %} 
     <a href="{{ post.slidesurl }}">Slides</a> 
