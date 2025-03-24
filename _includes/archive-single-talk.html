@@ -38,8 +38,8 @@
     {% if post.authors}<i class="archive__item-excerpt" itemprop="description">by {{post.authors}} </i> {% endif %}
     {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}, {{post.time}}</p>{% endif %}
     {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}} {{post.venue}} {% endif %}
-    {& if post.presenter %} <p> Presenter: {{post.presenter}}</p>
+    {& if post.presenter %} <p> Presenter: {{post.presenter}}</p> {% endif %}
     {% if post.extract %}<details> <summary>Abstract</summary>{{post.extract}}</details></p>{% endif %}
-    {% if post.slidesurl %} <a href="{{ post.slidesurl }}">Slides</a>
+    {% if post.slidesurl %} <a href="{{ post.slidesurl }}">Slides</a> {% endif %}
   </article>
 </div>
