@@ -80,9 +80,6 @@ author:
 publication_category:
   manuscripts:
     title: 'Works in Progress' 
-ETRG_category:
-  papers:
-    title: 'Presentations'
   
 
 # Site Settings
@@ -280,7 +277,7 @@ defaults:
       path: ""
       type: ETRG
     values:
-      layout: talk
+      layout: single
       author_profile: true
       share: true
 
