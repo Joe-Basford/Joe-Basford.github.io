@@ -19,7 +19,7 @@ Work experience
 ======
 * Jan 2024-Present: Research Assistant
   * LSE, Altruistic Capital Lab, London, UK
-  * Duties included: Microeconomic Modelling and Statistical Analysis
+  * Duties included: Microeconomic modelling and statistical analysis.
   * Supervisor: Nava Ashraf
 
 * Summer 2023: Research Assistant
