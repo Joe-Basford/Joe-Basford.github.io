@@ -27,7 +27,7 @@ Work experience
   * Duties included: Mathematical proof writing and phrasing for working papers in competition and information economics.
   * Supervisor: Daniele Condorelli
 
-* Summer 2015: Intern Analyst
+* Summer 2022: Intern Analyst
   * Oxera, Oxford, UK
   * Duties included: Created a natural language processing model with classification and Q&A functionality for large-scale metadata
 creation using European Commission merger documents.
@@ -35,6 +35,6 @@ creation using European Commission merger documents.
 Awards
 ======
 * Ely Devons Prize, LSE, 12/07/24 - Top ranking student in the MSc Econometrics and Mathematical Economics at LSE in a cohort of 34
-students. Additionally, obtained a distinction in all subjects.
-* Examiners’ Prize, University of Warwick, 12/07/23 - Top ranking student in final year of undergraduate studies in a cohort of 442 students.
-* Oliver Hart Prize, University of Warwick 23/07/21 - Top ranking student in second year of undergraduate studies in a cohort of 340 students.
+students. Additionally, I obtained a distinction in all subjects.
+* Examiners’ Prize, University of Warwick, 12/07/23 - Top-ranking student in the final year of undergraduate studies in a cohort of 442 students.
+* Oliver Hart Prize, University of Warwick 23/07/21 - Top-ranking student in the second year of undergraduate studies in a cohort of 340 students.
