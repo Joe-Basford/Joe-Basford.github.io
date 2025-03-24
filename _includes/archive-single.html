@@ -40,12 +40,7 @@
           <i>with {{post.coauthors}}</i>
           <p>Last Updated: <i>{{ post.venue }}</i> {{ post.date | default: "1900-01-01" | date: "%B %d, %Y"" }} </p>
         {% elsif post.abstract %}
-         <details> 
-           <summary>
-             Abstract
-           </summary>
-           {{post.abstract}}
-          </details>
+         <details> <summary>Abstract</summary>{{post.abstract}}</details>
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
