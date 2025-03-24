@@ -27,11 +27,7 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
+        <p>{{ title }}</p> 
     </h2>
     
     {% if post.read_time %}
@@ -43,8 +39,13 @@
         {% elsif post.collection == 'publications' %}
           <i>with {{post.coauthors}}</i>
           <p>Last Updated: <i>{{ post.venue }}</i> {{ post.date | default: "1900-01-01" | date: "%B %d, %Y"" }} </p>
-        {% elsif post.date %}
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Last Updated:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+        {% elsif post.extract %}
+         <details> 
+           <summary>
+             Abstract
+           </summary>
+           A private-value buyer makes an offer to purchase a good from a supplier with private-cost. Prior to trading and observing cost, the supplier must acquire a license from a monopolist. Licensing is public and payment depends on the subsequent sale’s terms. The monopolist’s optimal contract uses royalties to implement price-maintenance clauses that countervail against buyer-power. Royalties can be negative at higher price levels to allow screening of buyers. They incentivise high-cost suppliers to sell below-cost, motivating high-value buyers to separate from low-value ones by offering higher prices. Welfare effects of such licensing are ambiguous because reversing bargaining power can increase trade.
+         </details>
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
