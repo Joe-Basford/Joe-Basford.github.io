@@ -39,12 +39,12 @@
         {% elsif post.collection == 'publications' %}
           <i>with {{post.coauthors}}</i>
           <p>Last Updated: <i>{{ post.venue }}</i> {{ post.date | default: "1900-01-01" | date: "%B %d, %Y"" }} </p>
-        {% elsif post.extract %}
+        {% elsif post.abstract %}
          <details> 
            <summary>
              Abstract
            </summary>
-           {{post.extract}}
+           {{post.abstract}}
           </details>
         {% endif %}
 
