@@ -7,18 +7,22 @@ author_profile: true
 
 Welcome to the webpage for the economic theory reading group at LSE. Here you can find a list of future and past papers we will/have covered in the group, along with links to the papers and slides from the presentations.
 
-
+<hr>
 
 <h2> Upcoming </h2>
 
 {% for post in site.ETRG reversed %}
-{% if post.period == 'Upcoming'}
+{% if post.period == 'Upcoming' %}
   {% include archive-single-talk.html %}
+{% endif %}
 {% endfor %}
+
+<hr>
 
 <h2> Past </h2>
 
 {% for post in site.ETRG reversed %}
-{% if post.period == 'Past'}
+{% if post.period == 'Past' %}
   {% include archive-single-talk.html %}
+{% endif %}
 {% endfor %}
