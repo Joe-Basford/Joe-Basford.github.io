@@ -1,0 +1,16 @@
+---
+title: 'Selected Facts'
+collection: ETRG
+category: papers
+permalink: '/ET-Reading-Group/28-02-25'
+extract: 'We study constrained information design where a sender must provide facts to persuade a receiver to accept or reject a proposal. We show that sender-optimal strategies correspond to maximal-weight matchings on a bipartite graph that incorporates a novel fact-selection constraint, alongside the usual ones. Receiver payoffs are independent of the sender’s cardinal preferences, although these preferences determine the sender-optimal strategy. We show exactly when the sender can induce his ideal decisions. When the receiver can first specify the set of admissible facts, we identify conditions under which the receiver would (not) like to eliminate the sender’s freedom to select facts.'
+date: 2025-02-28
+venue: 'SAL B.13'
+time: '16:00-17:00'
+period: 'Past'
+authors: 'Nemanja Antic and Archishman Chakraborty'
+pub: 'WP'
+paperurl: 'chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.kellogg.northwestern.edu/faculty/antic/SelectedFacts.pdf'
+slidesurl: 'http://Joe-Basford.github.io/files/slides-28-02-25.pdf'
+presenter: 'Raffi Blasone'
+---
