@@ -11,7 +11,7 @@ Welcome to the webpage for the economic theory reading group at LSE. Here you ca
 
 <h2> Upcoming </h2>
 
-{% for post in site.ETRG reversed %}
+{% for post in site.ETRG %}
 {% if post.period == 'Upcoming' %}
   {% include archive-single-talk.html %}
 {% endif %}
