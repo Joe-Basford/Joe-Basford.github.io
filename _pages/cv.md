@@ -17,7 +17,11 @@ Education
 
 Work experience
 ======
-* Jan 2024-Present: Research Assistant
+* June 2025 - August 2025: Associate, Economic Strategy
+  * Balyasny Asset Management, London, UK
+  * Duties included: Microeconomic modelling and statistical analysis. Focused on contract theory and organisational economics.
+
+* Jan 2024 - Feb 2025: Research Assistant
   * LSE, Altruistic Capital Lab, London, UK
   * Duties included: Microeconomic modelling and statistical analysis.
   * Supervisor: Nava Ashraf
