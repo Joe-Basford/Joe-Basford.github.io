@@ -30,6 +30,9 @@
 
         {% if post.collection == 'publications' %}
           <i>with {{post.coauthors}}</i>
+        {% if post.presentations }
+          <p> Presented at: {{post.presentations}} </p>
+        {% endif %}
           <p>Last Updated: <i>{{ post.venue }}</i> {{ post.date | default: "1900-01-01" | date: "%B %d, %Y"" }} </p>
         {% if post.extract %}
          <details> <summary>Abstract</summary>{{post.extract}}</details>
