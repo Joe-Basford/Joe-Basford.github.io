@@ -10,3 +10,8 @@ redirect_from:
 **EC487: Advanced Microeconomics**
 
 Office Hours: Thursday 14:00-15:00, SAL1.30
+
+*Notes from FAQs*
+
+[Nash Bargaining: why probability of disagreement in threat and counterthreat is equal.](files/EC487_NBS.pdf)
+
