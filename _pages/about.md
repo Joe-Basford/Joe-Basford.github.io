@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Joe Basford, LSE PhD Economis Student"
+title: "Joe Basford, LSE PhD Economics Student"
 author_profile: true
 redirect_from: 
   - /about/
