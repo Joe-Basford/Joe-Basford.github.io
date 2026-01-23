@@ -29,7 +29,20 @@
     <h3>{{ title }}</h3>
 
         {% if post.collection == 'publications' %}
-          <i>with {{post.coauthors}}</i>
+          {% if post.coauthorsurls %}
+  <i>
+    with
+    {% for author in post.coauthorsurls %}
+      <a href="{{ author.url }}">{{ author.name }}</a>{% if forloop.last == false %}
+        {% if forloop.index == post.coauthorsurls.size | minus: 1 %}
+          and
+        {% else %}
+          ,
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </i>
+{% endif %}
         {% if post.presentations %}
          <p> Presented at: <i>{{post.presentations}}</i> </p>
         {% endif %}
