@@ -6,7 +6,7 @@ extract: "A  buyer with private value makes a take-it-or-leave-it offer to a sel
 date: 2025-01-23
 paperurl: 'http://Joe-Basford.github.io/files/THREEWAY.pdf'
 coauthorsurls:
-  - name: "Danniele Condorelli"
+  - name: "Daniele Condorelli"
     url: "https://www.condorelli.science/"
   - name: "Tanay Kasyap"
     url: "https://tanaykasyap.github.io/"
