@@ -33,13 +33,13 @@
   <i>
     with
     {% for author in post.coauthorsurls %}
-      <a href="{{ author.url }}">{{ author.name }}</a>{% if forloop.last == false %}
-        {% if forloop.index == post.coauthorsurls.size | minus: 1 %}
+      <a href="{{ author.url }}">{{ author.name }}</a>{% unless forloop.last %}
+        {% if forloop.rindex == 2 %}
           and
         {% else %}
           ,
         {% endif %}
-      {% endif %}
+      {% endunless %}
     {% endfor %}
   </i>
 {% endif %}
