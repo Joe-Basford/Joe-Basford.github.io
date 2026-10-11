@@ -9,6 +9,6 @@ redirect_from:
 
 **EC487: Advanced Microeconomics**
 
-Office Hours: Thursday 14:00-15:00, SAL1.30
+Office Hours: Friday 11:00-12:00, SAL1.30
 
 
